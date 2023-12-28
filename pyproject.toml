@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "data-engineering-project-04"
+version = "0.1.0"
+description = ""
+authors = ["Gustavo Souza"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.4"
+faker = "^21.0.0"
+pytest = "^7.4.3"
+openpyxl = "^3.1.2"
+isort = "^5.13.2"
+mkdocstrings = "^0.24.0"
+taskipy = "^1.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+run = "python3 app/main.py"
