@@ -6,6 +6,7 @@ import os
 def load_em_um_novo_excel(df, output_folder, output_file_name):
     """
     Carga: Salva um DataFrame em um arquivo EXCEL.
+    
     type: df: pd.DataFrame
     """
 

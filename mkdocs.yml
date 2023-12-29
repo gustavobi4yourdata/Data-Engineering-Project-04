@@ -1,0 +1,20 @@
+site_name: Data-Engineering-Project-04
+theme:
+  name: material
+  palette:
+    primary: blue
+  language: en
+
+repo_name: "gustavobi4yourdata/Data-Engineering-Project-04"
+repo_url: "https://github.com/gustavobi4yourdata/Data-Engineering-Project-04.git"
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python

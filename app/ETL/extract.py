@@ -17,4 +17,5 @@ def extract_excel(input_folder):
     if not files:
         raise ValueError('No Excel files found')
     all_data = [pd.read_excel(file) for file in files]
+    
     return all_data

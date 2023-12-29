@@ -6,7 +6,7 @@ from .transform import transforma_em_um_unico
 
 
 def pipeline_completa(input_folder, output_folder, output_file_name):
-    """ "
+    """
     Função ETL: Extrai, Transforma e Carrega dados de arquivos EXCEL.
 
     type: input_folder: strs
