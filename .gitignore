@@ -3,4 +3,4 @@
 poetry.lock
 
 # mkdocs documentation
-site
+/site
