@@ -10,7 +10,7 @@ def transforma_em_um_unico(all_data):
     """
 
     if not all_data:
-        raise ValueError("Nenhum dado para transformar")
+        raise ValueError("No data to transform")
     consolidated_df = pd.concat(all_data, axis=0, ignore_index=True)
     
     return consolidated_df

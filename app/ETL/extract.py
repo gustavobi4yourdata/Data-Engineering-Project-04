@@ -14,7 +14,7 @@ def extract_excel(input_folder):
 
     files = glob.glob(os.path.join(input_folder, "*.xlsx"))
     if not files:
-        raise ValueError("Nenhum arquuivo EXCEL encontrado na pasta especificada")
+        raise ValueError("No Excel files found")
     all_data = [pd.read_excel(file) for file in files]
 
     return all_data
