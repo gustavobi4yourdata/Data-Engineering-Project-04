@@ -14,6 +14,7 @@ openpyxl = "^3.1.2"
 isort = "^5.13.2"
 mkdocstrings = "^0.24.0"
 taskipy = "^1.12.2"
+blue = "^0.9.1"
 
 
 [build-system]
@@ -23,3 +24,5 @@ build-backend = "poetry.core.masonry.api"
 [tool.taskipy.tasks]
 run = "python3 app/main.py"
 test = "pytest -v"
+isort = "isort ."
+blue = "blue ."
