@@ -2,3 +2,5 @@
 
 Essa é a documentação do meu projeto:
 [Meu projeto](https://gustavobi4yourdata.github.io/Data-Engineering-Project-04/)
+
+OBS.: Projeto em construção
